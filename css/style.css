@@ -1,0 +1,16 @@
+:root {
+    --white-text: #FFF;
+    --header-grey: #C7C7C7;
+    --cards-grey: #D8D8D8; 
+    --inputs-grey: #959595;
+    --bg-color: #012D63;
+    --button-color: #8E32C6;
+}
+
+.container {
+width: 1140px;
+padding-left: 15px;
+padding-right: 15px;
+margin-right: auto;
+margin-left: auto;
+}
