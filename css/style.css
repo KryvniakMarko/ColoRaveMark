@@ -62,6 +62,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
+    transition-duration: 0.5s;
 }
 
 .header-button-language:hover {
@@ -71,6 +72,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
+    transition-duration: 0.5s;
 }
 
 .colorave-section {
@@ -135,6 +137,15 @@
     margin-top: 41px;
 }
 
+.colorave-button:hover{
+    background-color: var(--bg-color);
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    transition-duration: 0.5s;
+}
 .about-section {
     background-color: var(--bg-color);
     padding-top: 105px;
@@ -352,6 +363,16 @@
     line-height: normal;
 }
 
+.order-confirm:hover {
+    background-color: var(#bebebe);
+    color: #bebebe;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    transition-duration: 0.5s;
+}
+
 .order-input {
     width: 580px;
     height: 50px;
@@ -382,6 +403,16 @@
     background-color: var(--button-color);
     border-radius: 10px;
     margin-top: 19px;
+}
+
+.order-button:hover {
+    background-color: var(--bg-color);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    transition-duration: 0.5s;
 }
 
 .footer {
@@ -435,12 +466,11 @@
     flex-direction: column;
 }
 
-
-
 .copyright-text {
     color: var(--white-text);
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
+    margin-top: 24px;
 }
